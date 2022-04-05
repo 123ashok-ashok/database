@@ -13,6 +13,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<flow-ref doc:name="Flow Reference" doc:id="0f57dfbd-ea57-42b8-b200-1a3b393c7378" name="githubSub_Flow"/>
 	</flow>
 	<sub-flow name="githubSub_Flow" doc:id="921008a2-6b10-4b65-858d-b3712dc35c23" >
-		<logger level="INFO" doc:name="Logger" doc:id="8ed3bf89-5187-4c97-b218-99843eb78073" message="this is subflow"/>
+		<logger level="INFO" doc:name="Logger" doc:id="8ed3bf89-5187-4c97-b218-99843eb78073" message="subflow"/>
 	</sub-flow>
 </mule>
