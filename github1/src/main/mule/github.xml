@@ -11,7 +11,9 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="cfb1a209-0dbb-4080-85a5-d5f7b44e23cb" config-ref="HTTP_Listener_config" path="/hub"/>
 		<logger level="INFO" doc:name="Logger" doc:id="648803b1-6646-44b7-9db8-1511230947f7" message="this is git hub"/>
 		<flow-ref doc:name="Flow Reference" doc:id="0f57dfbd-ea57-42b8-b200-1a3b393c7378" name="githubSub_Flow"/>
-	</flow>
+		<logger level="INFO" doc:name="Logger" doc:id="419af8d3-026c-40a4-a438-e316188c3634" message="my name is pavani"/>
+	
+</flow>
 	<sub-flow name="githubSub_Flow" doc:id="921008a2-6b10-4b65-858d-b3712dc35c23" >
 		<logger level="INFO" doc:name="Logger" doc:id="8ed3bf89-5187-4c97-b218-99843eb78073" message="this is subflow"/>
 	</sub-flow>
